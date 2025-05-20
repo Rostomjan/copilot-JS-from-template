@@ -16,27 +16,30 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+// import image from "../images/motion-background.jpg";
+const image = "https://cdn.pixabay.com/photo/2020/07/29/08/33/coffee-5447420_1280.jpg";
 
-const imageAltText = "purple and blue abstract background";
+// const imageAltText = "purple and blue abstract background";
+const imageAltText = "Coffee cup on a table with a blurred background of a cafe.";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "I am a web developer with a passion for creating beautiful and functional user experiences. I have a strong background in UI/UX design, and I love to work on projects that challenge me to think outside the box.";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Web Development",
+  "UI/UX Design",
+  "JavaScript",
+  "React",
+  "Node.js",
+  "HTML",
+  "CSS",
 ];
 
 /**
@@ -44,8 +47,8 @@ const skillsList = [
  * how you best work, or even a quote. This will help someone learn more
  * about you on a professional level.
  */
-const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+const detailOrQuote = 
+  "I am passionate about creating user-friendly interfaces and experiences. I believe that good design is not just about how things look, but also about how they work. I strive to create products that are not only visually appealing, but also easy to use and navigate.";
 
 const About = () => {
   return (
